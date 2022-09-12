@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/community_listview_shape">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:id="@+id/community_lv_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제목이야"
+            android:textSize="15dp"
+            android:textColor="@color/AlmanchuPrimary"/>
+
+        <TextView
+            android:id="@+id/community_lv_category_tv"
+            android:gravity="right"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="카테고리"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/community_lv_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/community_lv_text_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="12dp"
+        android:text="내용이 적힐 것이야~~~"
+        android:textColor="#111111" />
+
+    <LinearLayout
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_good_24dp"/>
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/community_lv_goodcnt_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="0"
+            android:textColor="@color/AlmanchuPrimary"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_comment_24dp"/>
+
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:id="@+id/community_lv_commentcnt_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="0"
+            android:textColor="@color/AlmanchuAccent"/>
+
+        <TextView
+            android:id="@+id/community_lv_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:gravity="right"
+            android:text="날짜"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+</LinearLayout>

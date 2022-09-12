@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Community.CommunityFragment"
+    android:orientation="vertical"
+    android:background="#6D192D">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.tabs.TabLayout
+            app:tabMaxWidth="@android:dimen/notification_large_icon_width"
+            app:tabIndicatorHeight="3dp"
+            android:id="@+id/community_tablayout"
+            android:layout_width="match_parent"
+            app:tabMode="scrollable"
+            app:tabUnboundedRipple="false"
+            app:tabRippleColor="#C9F5F5F5"
+            app:tabSelectedTextColor="@color/AlmanchuAccent"
+            app:tabIndicatorColor="@color/AlmanchuAccent"
+            app:tabTextColor="#FFFFFF"
+            android:layout_height="50dp"></com.google.android.material.tabs.TabLayout>
+
+
+
+        <ListView
+            android:id="@+id/community_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:elevation="6dp"></ListView>
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/writing_fab"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:layout_gravity="end|bottom"
+        android:foregroundTint="#FFFFFF"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_border_color_black_24dp"
+        android:backgroundTint="#FFFFFF" />
+
+</FrameLayout>

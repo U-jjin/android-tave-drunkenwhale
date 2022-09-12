@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/community_reset_btn"
+        android:title="reset"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_community_replace" />
+
+    <item
+        android:title="myboard"
+        android:id="@+id/community_myboard_btn"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_community_myboard_24dp" />
+
+
+
+</menu>

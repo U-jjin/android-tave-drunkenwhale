@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EC9696</color>
+    <color name="colorPrimaryDark">#F0ECEC</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="AlmanchuPrimary">#DF0F40</color>
+    <color name="AlmanchuDark">#a00227</color>
+    <color name="AlmanchuAccent">#B5F02A</color>
+    <color name="AlmanchuBackground">#6D192D</color>
+</resources>
